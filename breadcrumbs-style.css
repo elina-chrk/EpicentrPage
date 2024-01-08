@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs {
+    display: block;
+}
+
+.breadcrumbs a,
+.breadcrumbs span {
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+    font-size: 0.8rem;
+    font-family: roboto,Helvetica Neue,helvetica,arial,sans-serif;
+}
+
+.breadcrumbs a {
+    margin-left: 10%;
+}
+
+hr {
+	padding: 0;
+	height: 10px;
+	border: none;
+	border-top: 0.5px solid #b6b6b680;
+	box-shadow: 0 5px 10px -10px #dadada44 inset;
+}

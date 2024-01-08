@@ -1,0 +1,55 @@
+.main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: roboto,Helvetica Neue,helvetica,arial,sans-serif;
+}
+.main h1 {
+    padding-top: 20px;
+    margin-left: 6%;
+    font-size: 40px;
+}
+
+.container__cards {
+    padding-top: 50px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 225px);
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    column-gap: 70px;
+    row-gap: 40px;
+}
+
+.card img {
+    width: 70%;
+}
+
+.card h3,
+.card a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #00479e;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: #1060c1;
+}
+
+.card ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 7px;
+
+}
+
+.card>ul>li>a {
+    color: #000;
+    font-size: 14px;
+
+}
